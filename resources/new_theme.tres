@@ -1,0 +1,43 @@
+[gd_resource type="Theme" format=3 uid="uid://l7imnuaexnfm"]
+
+[ext_resource type="StyleBox" uid="uid://ds3es720hneex" path="res://resources/menu_style_box_flat.tres" id="1_2a54a"]
+[ext_resource type="FontFile" uid="uid://deqg1kwan2tf5" path="res://fonts/Matcha Style Ttf.ttf" id="2_121kx"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d3ra7"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(1, 1, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_121kx"]
+bg_color = Color(1, 0, 0, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(1, 1, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uda43"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(1, 1, 1, 1)
+
+[resource]
+default_font = ExtResource("2_121kx")
+default_font_size = 0
+Button/colors/font_pressed_color = Color(0, 0, 0, 1)
+Button/font_sizes/font_size = 52
+Button/styles/focus = SubResource("StyleBoxFlat_d3ra7")
+Button/styles/hover = SubResource("StyleBoxFlat_121kx")
+Button/styles/normal = ExtResource("1_2a54a")
+Button/styles/pressed = SubResource("StyleBoxFlat_uda43")
+PanelContainer/styles/panel = ExtResource("1_2a54a")
+RichTextLabel/colors/default_color = Color(1, 1, 1, 1)
+VBoxContainer/constants/separation = 28
+richtextlabel_1/base_type = &"RichTextLabel"
+richtextlabel_1/font_sizes/normal_font_size = 78

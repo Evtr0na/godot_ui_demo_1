@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cpuggbwscqp2m"]
+
+[ext_resource type="Script" uid="uid://b8vfyeyoah1ak" path="res://Scene/tree.gd" id="1_1i8wt"]
+
+[node name="Tree" type="Tree" unique_id=568393316]
+custom_minimum_size = Vector2(300, 300)
+columns = 4
+script = ExtResource("1_1i8wt")
